@@ -12,7 +12,7 @@ if ( $dbInformation['isMySQL'] ) {
 				$ismysql
 		); ?>
 	</p>
-<?php if ( $dbInformation['isEndOfLive'] ) { ?>
+<?php if ( $dbInformation['isEndOfLife'] ) { ?>
 		<p><?php _e( 'Your version is past end of life. Please update your MySQL database to a newer version.', 'mysql8-companion' ); ?></p>
 		<p><?php printf(
 					__( 'Please, <a href="%1$s" target="_blank">download an updated version of MySQL</a>.', 'mysql8-companion' ),

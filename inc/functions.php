@@ -1,7 +1,7 @@
 <?php
 /**
  * @package MySQL8_Companion
- * @version 0.0.1
+ * @version 0.0.2
  */
 
 defined( 'WPINC' ) || die;
@@ -135,7 +135,7 @@ function m8c_getAllDbInformation() {
 	$data        = [
 		'fullVersion' => m8c_getFullDatabaseVersion(),
 		'eol'         => '',
-		'isEndOfLive' => false,
+		'isEndOfLife' => false,
 		'isCloud'     => false,
 		'sysAccess'   => true,
 		'pfsAccess'   => true,
@@ -161,7 +161,7 @@ function m8c_getAllDbInformation() {
 		$record     = $wpdb->get_results( $query, ARRAY_A );
 		if ( isset( $record[0]['version'], $record[0]['eol'] ) ) {
 			$data['eol']         = $record[0]['eol'];
-			$data['isEndOfLive'] = m8c_checkEndOfLive( $record[0]['eol'] );
+			$data['isEndOfLife'] = m8c_checkEndOfLife( $record[0]['eol'] );
 		}
 	}
 
@@ -197,7 +197,7 @@ function m8c_getAllDbInformation() {
  *
  * @return bool
  */
-function m8c_checkEndOfLive( $date ) {
+function m8c_checkEndOfLife( $date ) {
 	$dateTime = strtotime( $date );
 
 	if ( time() > $dateTime ) {

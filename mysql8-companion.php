@@ -3,7 +3,7 @@
  * Plugin Name: MySQL 8 Companion
  * Plugin URI: http://github.com/lefred/wordpress-mysql8-companion
  * Description: If you are using MySQL 8 on prem or on cloud, this plugin will provide you useful information. The plugin also supports MySQL HeatWave on OCI
- * Version: 0.0.1
+ * Version: 0.0.2
  * Plugin Prefixes: m8c, M8c, M8C, mysql8companion
  * Text Domain: mysql8-companion
  * Author: lefred

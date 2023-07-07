@@ -11,7 +11,7 @@ if ( $dbInformation['isMySQL'] ) {
 	$ismysql = 'MySQL';
 }
 ?>
-<?php if ( $dbInformation['isEndOfLive'] ) { ?>
+<?php if ( $dbInformation['isEndOfLife'] ) { ?>
 	<div class="notice notice-error">
 		<p><?php _e( 'Your version is past end of life. Please update your MySQL database to a newer version.', 'mysql8-companion' ); ?></p>
 		<p><?php printf(
