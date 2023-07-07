@@ -1,0 +1,15 @@
+{
+  "name": "lefred/mysq8-companion",
+  "authors": [
+    {
+      "name": "lefred",
+      "email": "lefred@lefred.be"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "M8C\\": "inc/App"
+    }
+  },
+  "require": {}
+}

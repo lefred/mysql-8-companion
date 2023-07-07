@@ -1,0 +1,220 @@
+#m8c-chart {
+	padding: 1rem;
+	background-color: white;
+}
+
+.m8c-logs {
+	border-collapse: collapse;
+	width: 99%;
+}
+
+.m8c-logs td {
+	border: 1px dashed ;
+}
+
+/*
+.m8c-logs tr:nth-child(even) {
+	background-color: #b7cee6; 
+	color: black;
+}
+
+.m8c-logs tr:nth-child(odd) {
+	background-color: #f1d39d;
+	color: black;
+}
+*/
+
+.m8c-logs tr:first-child {
+	background-color: #f0f0f1;
+	color: black;
+	position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1; 
+}
+.m8c-logs-2 {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.m8c-logs-2 td {
+	border: 1px dashed ;
+	text-align: right;
+}
+
+/*
+.m8c-logs-2 tr:nth-child(even) {
+	background-color: #b7cee6; 
+	color: black;
+}
+
+.m8c-logs-2 tr:nth-child(odd) {
+	background-color: #f1d39d; 
+	color: black;
+}
+*/
+
+.m8c-logs-2 tr:first-child {
+	background-color: unset;
+	color: black;
+	position: -webkit-sticky;
+    position: sticky;
+	text-align: right;
+    top: 0;
+    z-index: 1; 
+}
+
+.m8c-error {
+	padding: 5px;
+	border: 1px solid;
+	float: left;
+	margin: 5px;
+	border: 1px solid;
+	width: 98%;
+}
+
+.m8c-error-2 {
+	padding: 5px;
+	border: 1px solid;
+	float: left;
+	margin: 5px;
+	border: 1px solid;
+	width: 98%;
+}
+
+.m8c-error-2 legend {
+	padding: 0 8px;
+	color: #316DAE;
+	font-weight: bold;
+	text-align: right;
+    margin-inline-start: auto;
+    margin-inline-end: 10px;
+    text-align: end;
+}
+
+.m8c-container {
+	max-height: 300px;
+    width: 100%;
+    margin: auto;
+    border: 1px solid #ccc;
+    overflow:auto;
+}
+.m8c-error legend {
+	padding: 0 8px;
+	color: #316DAE;
+	font-weight: bold;
+	text-align: right;
+    margin-inline-start: auto;
+    margin-inline-end: 10px;
+    text-align: end;
+}
+
+.m8clogo img {
+	height: 60px;
+	float: right;
+	margin-right: 10%;
+	margin-top: -2%;
+}
+
+.m8c {
+	padding: 5px;
+	border: 1px solid;
+	float: left;
+	margin: 5px;
+}
+
+.m8c th {
+	text-align: left;
+}
+
+.m8c-error th {
+	text-align: left;
+}
+
+.m8c-error2 th {
+	text-align: left;
+}
+
+.m8c td:first-child { padding-right:10px }
+
+.m8c legend {
+	padding: 0 8px;
+	color: #316DAE;
+	font-weight: bold;
+	text-align: right;
+    margin-inline-start: auto;
+    margin-inline-end: 10px;
+    text-align: end;
+}
+
+.m8c-grid {
+	display: grid;
+	border: 0px solid;
+	grid-template-columns: auto auto;
+}
+
+#wpfooter {
+	position: unset;
+}
+
+.m8c-query {
+	width: 100%;
+    max-height: 300px;
+    overflow: auto;
+    border: 1px solid #ccc;
+    white-space: pre-wrap;
+}
+
+.m8c-qep-det {
+	width: 100%;
+    max-height: 300px;
+    overflow: auto;
+    border: 1px solid #ccc;
+    white-space: pre-wrap;
+}
+
+.cell-data{
+    position:relative;
+    max-height: 20px;
+    transition: max-height 1s ease-in-out;
+    overflow:auto;
+}
+.cell-data:hover{
+    max-height: 200px;
+}
+
+.m8c-little-arrow{
+    position:absolute;
+    top: 0px;
+    left:95%;
+    color: #316DAE;
+}
+.m8c-little-arrow:after{
+    content:"▼";
+    font-size:12px;
+}
+
+.query-line {
+	display: none;
+	background-color: #eff7ff;;
+}
+
+.m8c-query-tab {
+	width: 100%;
+}
+
+.m8c-stats-tab {
+	padding: 5px;
+	border: 1px solid;
+	float: left;
+	margin: 5px;
+	width: 100%;
+}
+
+.m8c-stats-tab th{
+	text-align: right;
+}
+
+.m8c-stats-tab td{
+	text-align: left;
+}
